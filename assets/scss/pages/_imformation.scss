@@ -1,0 +1,97 @@
+.product-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.product-col {
+  padding-left: 4px;
+  padding-right: 4px;
+  width: calc(100% / 12 * 6);
+}
+
+.information .h5 {
+  color: var(--Primary-400);
+}
+
+.information del {
+  color: var(--Neutral-600);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.information p {
+  font-weight: 400;
+}
+
+.product-color {
+  width: 64px;
+  text-align: center;
+  color: var(--Neutral-600);
+}
+
+.product-size .btn {
+  border: solid 1px var(--Neutral-300);
+  width: 160px;
+}
+
+.product-size .active,
+.product-size :hover {
+  border-color: var(--Neutral-900);
+}
+
+.product-size .none {
+  pointer-events: none;
+}
+
+.product-size p {
+  color: var(--Functional-Danger-300);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.cta .btn {
+  width: 50%;
+}
+
+.btn-heart {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 12px;
+}
+
+.accordion p {
+  color: var(--Neutral-600);
+  font-weight: 400;
+}
+
+.accordion-item {
+  border-bottom: 1px solid var(--Neutral-300);
+}
+
+@media (max-width: 767px) {
+  .product-row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .product-col {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+  }
+  .card-row-3-md {
+    padding-left: -8px;
+    padding-right: -8px;
+  }
+  .card-col-3-md {
+    min-width: 316px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}

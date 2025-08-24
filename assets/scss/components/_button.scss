@@ -1,0 +1,42 @@
+.btn {
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  padding: 12px 24px;
+}
+
+.btn-light {
+  border: solid 1px var(--Neutral-900);
+}
+
+.btn-dark {
+  background-color: var(--Neutral-900);
+  color: var(--Neutral-White);
+}
+
+@media (max-width: 767px) {
+  .btn {
+    padding: 8px 16px;
+  }
+}
+
+/* 擬態選擇器 */
+.banner .btn:hover {
+  background-color: var(--Neutral-700);
+}
+
+.cta .btn-light:hover {
+  color: var(--Neutral-White);
+  background-color: var(--Neutral-900);
+}
+
+.cta .btn-dark:hover,
+.banner .btn:hover {
+  background-color: var(--Neutral-700);
+}

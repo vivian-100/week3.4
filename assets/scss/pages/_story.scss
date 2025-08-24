@@ -1,0 +1,65 @@
+.header {
+  background-image: url(/assets/images/hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 151px;
+  padding-bottom: 151px;
+  text-align: center;
+}
+
+.intro {
+  background-color: #f5fee7;
+  padding: 32px;
+  text-align: center;
+}
+
+.sectionline {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.history ul {
+  list-style: disc;
+  margin-left: 24px;
+}
+
+.historyyear {
+  margin-right: 8px;
+}
+
+.historytext {
+  padding-left: 8px;
+  border-left: 1px solid var(--Neutral-900);
+}
+
+.idea li {
+  border-left: 3px solid #dee2e6;
+  padding-left: 12px;
+}
+
+.story a {
+  color: var(--Primary-400);
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  display: block;
+}
+
+.bi {
+  margin-right: 8px;
+}
+
+@media (max-width: 767px) {
+  .header {
+    background-image: url(/assets/images/hero-sm.png);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    padding-top: 87px;
+    padding-bottom: 87px;
+  }
+
+  .intro {
+    border-radius: 12px;
+    padding: 24px;
+    text-align: left;
+  }
+}

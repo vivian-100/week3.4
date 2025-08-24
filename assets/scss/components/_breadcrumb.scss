@@ -1,0 +1,20 @@
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "/";
+  padding: 0 12px;
+  color: var(--Neutral-300);
+  font-weight: 700;
+}
+
+.breadcrumb-link {
+  color: var(--Neutral-600);
+  display: inline;
+}
+
+@media (max-width: 767px) {
+  .breadcrumb-item {
+    font-size: 14px;
+  }
+  .breadcrumb-item + .breadcrumb-item::before {
+    padding: 0 8px;
+  }
+}
